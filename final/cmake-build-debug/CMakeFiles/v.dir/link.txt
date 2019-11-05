@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/v.dir/main.c.o CMakeFiles/v.dir/categoria.c.o CMakeFiles/v.dir/inserir.c.o CMakeFiles/v.dir/menu.c.o CMakeFiles/v.dir/remover.c.o CMakeFiles/v.dir/user.c.o  -o v 

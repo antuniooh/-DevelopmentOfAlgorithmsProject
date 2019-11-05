@@ -1,0 +1,14 @@
+Data:  12/12/2006  +  25.000000  Moradia
+Data:  12/12/2006  +  1254.000000  Trabalho
+Data:  12/12/2006  +  25.000000  Moradia
+Data:  12/12/2006  +  25.000000  Moradia
+Data:  12/12/2001  -  1254.000000  Estudos
+Data:  12/12/2006  +  1254.000000  Trabalho
+Data:  12/12/2006  +  25.000000  Moradia
+Data:  12/12/2006  +  25.000000  Moradia
+Data:  12/12/2001  -  1254.000000  Estudos
+Data:  12/12/2006  +  1254.000000  Trabalho
+Data:  12/12/2006  +  25.000000  Moradia
+Data:  12/12/2006  +  25.000000  Moradia
+Data:  12/12/2001  -  1254.000000  Estudos
+Data:  12/12/2006  +  1254.000000  Trabalho
