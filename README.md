@@ -1,4 +1,4 @@
-# Projeto Quem Poupa Tem
+# Carteira Pessoal
 
 Projeto semestral para a matéria de Desenvolvimento de Algoritmos cursada no Centro Universitário FEI. Desenvolvimento de uma carteira de gastos pessoais em linguagem C e com armazenamento de informações em arquivo externo.
 
