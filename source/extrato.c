@@ -3,7 +3,8 @@
 #include <stdlib.h>
 #include <math.h>
 #include <string.h>
-#include "extrato.h"
+
+#include "../include/extrato.h"
 
 void Extrato(FILE* file){
   char buf[BUFSIZ];

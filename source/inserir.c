@@ -2,8 +2,9 @@
 #include <stdlib.h>
 #include <math.h>
 #include <string.h>
-#include "user.h"
-#include "menu.h"
+
+#include "../include/user.h"
+#include "../include/menu.h"
 
 struct Usuario{
     char nome[200];

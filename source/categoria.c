@@ -4,7 +4,8 @@
 #include <math.h>
 #include <string.h>
 #include <time.h>
-#include "categoria.h"
+
+#include "../include/categoria.h"
 
 
 int verifica(char* v, char* quer, int tamPalavra, int tam){

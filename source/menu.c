@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <math.h>
 #include <string.h>
-#include "menu.h"
+
+#include "../include/menu.h"
 
 
 int menu(){

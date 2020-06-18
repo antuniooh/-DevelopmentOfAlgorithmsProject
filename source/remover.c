@@ -3,8 +3,9 @@
 #include <stdlib.h>
 #include <math.h>
 #include <string.h>
-#include "remover.h"
-#include "categoria.h"
+
+#include "../include/remover.h"
+#include "../include/categoria.h"
 
 void RemoverTudo(){
     remove("MyPersonalWallet.txt");

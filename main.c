@@ -2,12 +2,12 @@
 #include <stdlib.h>
 #include <math.h>
 #include <string.h>
-#include "menu.h"
-#include "user.h"
-#include "inserir.h"
-#include "remover.h"
-#include "categoria.h"
-#include "extrato.h"
+#include "include/menu.h"
+#include "include/user.h"
+#include "include/inserir.h"
+#include "include/remover.h"
+#include "include/categoria.h"
+#include "include/extrato.h"
 
 
 struct Usuario{
