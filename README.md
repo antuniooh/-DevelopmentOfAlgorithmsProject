@@ -54,3 +54,10 @@ sudo apt-get install g++
 g++ -o main source/*.c main.c
 ./main
 ```
+## Integrantes
+
+O software em questão foi desenvolvido por 2 pessoas.
+
+Antonio Muniz - https://www.linkedin.com/in/antuniooh/
+
+Henrique Vital - https://www.linkedin.com/in/henrique-vital-carvalho-45a82b192/
