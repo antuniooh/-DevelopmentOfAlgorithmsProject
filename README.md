@@ -1,63 +1,83 @@
-# Carteira Pessoal
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/antuniooh/wallet-in-c">
 
-Projeto semestral para a matéria de Desenvolvimento de Algoritmos cursada no Centro Universitário FEI. Desenvolvimento de uma carteira de gastos pessoais em linguagem C e com armazenamento de informações em arquivo externo.
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/antuniooh/wallet-in-c">
+  
+  <a href="https://github.com/antuniooh/wallet-in-c/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/antuniooh/wallet-in-c">
+  </a>
+  
+   <img alt="GitHub" src="https://img.shields.io/github/license/antuniooh/wallet-in-c">
+</p>
 
-## Funcionalidade
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/antuniooh/wallet-in-c">
+    <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--ErFNXqjP--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/x3akeir98t709d0rbxcy.png" alt="Logo" width="550">
+  </a>
+</p>
 
-Consiste num menu simples com 6 opções para o usuários:
-
-```
-1 - Inserir
-2 - Relatorio de Movimentos
-3 - Saldo
-4 - Remover Dados 
-5 - Extrato 
-
-0 - Sair 
-```
-
-Assim que a aplicação se inicia é solicitado a criação do usuário. Sendo necessário inserir o nome, CPF e senha de sua carteira pessoal.
-
-![image](images/menu.png)
+<p align="center">
+  <img alt="C" src="https://img.shields.io/badge/C-blue?style=for-the-badge&logo=c&logoColor=white"/>
+</p>
 
 
-**Opção 1** - Essa opção permite a inserção de uma movimentação a conta, podendo ser uma receita ou gasto. Além do tipo de transção, deve-se inserir o valor, a data e a categoria de movimentação (dentro das opções definidas). Tais informações serão cadastradas na conta do usuário.
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#-about-the-project">About The Project</a>
+    </li>
+    <li>
+      <a href="#-how-to-run">How To Run</a>
+    </li>
+  </ol>
+</details>
 
-![image](images/opcao1.png)
 
-**Opção 2** - Essa opção exibe o relatório de movimentação da conta pessoal, podendo ser exibida de dois modos: Anual ou por categoria. A primeira exibe todas as movimentação do ano anterior ao recorrente ou de um ano especifico, enquanto a segunda solicita uma categoria ao usuário e exibe todas as movimentações referentes a essa categoria no último mês ou em um mês especifico. 
+<!-- ABOUT THE PROJECT -->
+## 💻 About The Project
+Project consists of a portfolio of personal expenses in C language and with storage of information in an external file.
 
-![image](images/opcao2.png)
-![image](images/opcao2_1.png)
+Option 1 - This option allows the insertion of a transaction to the account, which can be an income or expense. In addition to the transaction type, you must enter the amount, date and transaction category (within the defined options). Such information will be registered in the user's account.
 
-**Opção 3** - Essa opção exibe o saldo atual do usuário.
+Option 2 - This option displays the personal account movement report, which can be displayed in two ways: Annual or by category. The first displays all transactions from the year prior to the recurring or from a specific year, while the second prompts the user for a category and displays all transactions for that category in the last month or in a specific month.
 
-![image](images/opcao3.png)
+Option 3 - This option displays the user's current balance.
 
-**Opção 4** - Essa opção pergunta ao usuário se ele deseja remover uma transação especifica de seu histórico ou se deseja remover todos os seus dados da aplicação.
+Option 4 - This option asks the user if he wants to remove a specific transaction from his history or if he wants to remove all his data from the application.
 
-![image](images/opcao4.png)
-![image](images/opcao4_1.png)
+Option 5 - Displays the statement of all bank transactions.
 
-**Opção 5** - Exibe o extrato de todas as movimentações bancárias.
+![app](https://github.com/antuniooh/wallet-in-c/blob/master/images/app.gif)
 
-![image](images/opcao5.png)
-
-**Opção 6** - Fecha a aplicação
-
-## Execução
-
-Tanto no Windows quanto no Linux a execução é feita a partir da execução das linhas a seguir no terminal, ou utilizando uma IDE de sua preferência. 
+<!-- HOW TO RUN -->
+## 🚀 How To Run
 
 ```bash
-sudo apt-get install g++
-g++ -o main source/*.c main.c
-./main
+
+# Clone the repository
+$ git clone https://github.com/antuniooh/wallet-in-c.git
+
+# Access the project folder in your terminal / cmd
+$ cd wallet-in-c
+
+# You need to install the compiler
+$ sudo apt-get install g++
+
+# Compile project
+$ g++ -o main source/*.c main.c
+
+# In both Windows and Linux, the execution is done by executing the following lines in the terminal, or using an IDE of your choice.
+
+# Execute the binary
+$ ./main
+
 ```
-## Integrantes
 
-O software em questão foi desenvolvido por 2 pessoas.
+## 🤖 Authors
 
-Antonio Muniz - https://www.linkedin.com/in/antuniooh/
-
-Henrique Vital - https://www.linkedin.com/in/henrique-vital-carvalho-45a82b192/
+[Antonio Gustavo](https://github.com/antuniooh)           |  [Henrique Vital](https://github.com/henriquevital00)           
+<img src="https://avatars.githubusercontent.com/u/51217271?v=4" alt="drawing" width="150"/>  |  <img src="https://avatars.githubusercontent.com/u/48650626?v=4" alt="drawing" width="150"/>

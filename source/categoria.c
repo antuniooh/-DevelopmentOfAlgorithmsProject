@@ -31,7 +31,7 @@ int verifica(char* v, char* quer, int tamPalavra, int tam){
 void ImprimeCategoria(FILE *file, char* categoria){
     char c;
     char line[100000];
-    int index = 0, bool=0;
+    int index = 0, isTrue=0;
 
 
     while ( 1 ) {
@@ -42,7 +42,7 @@ void ImprimeCategoria(FILE *file, char* categoria){
         else {
 
             if(verifica(line, categoria, index, strlen(categoria))) {
-                bool=1;
+                isTrue=1;
                 printf("%s\n", line);
             }
             line[index] = '\0';
@@ -57,14 +57,14 @@ void ImprimeCategoria(FILE *file, char* categoria){
         }
 
     }
-    if(bool == 0){
+    if(isTrue == 0){
         printf("Categoria nao encontrada\n");
     }
     fclose(file);
 }
 
 void Anual(FILE *MyPersonalWallet, char *ano){
-    int bool=0;
+    int isTrue=0;
     char vetor[50000], v2[10];
 
     while(fgets(vetor, sizeof(vetor), MyPersonalWallet)){
@@ -75,12 +75,12 @@ void Anual(FILE *MyPersonalWallet, char *ano){
             v2[j] = vetor[i];
         }
         if(strcmp(v2, ano) == 0){
-            bool=1;
+            isTrue=1;
             printf("%s\n", vetor);
         }
 
     }
-    if(bool == 0){
+    if(isTrue == 0){
         printf("Ano nao encontrado\n");
     }
     fclose(MyPersonalWallet);
