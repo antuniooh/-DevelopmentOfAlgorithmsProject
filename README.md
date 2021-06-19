@@ -14,7 +14,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/antuniooh/wallet-in-c">
-    <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--ErFNXqjP--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/x3akeir98t709d0rbxcy.png" alt="Logo" width="550">
+    <img src="https://static05.cminds.com/wp-content/uploads/WordPress_virtualwallet_rectangle_1_Illustrative_Banner_Blog.jpg" alt="Logo" width="550">
   </a>
 </p>
 
